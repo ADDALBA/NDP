@@ -11,7 +11,6 @@
 ```
 cd ./rq1
 pip install -r requirements.txt
-
 ```
 ## Classify CPBugs types 
 
@@ -24,7 +23,6 @@ pip install -r requirements.txt
 
 ```
 python roberta_ppp.py
-
 ```
 
 You can find the prediction in the data_pp folder
