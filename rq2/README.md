@@ -11,7 +11,6 @@
 ```
 cd ./rq2
 pip install -r requirements.txt
-
 ```
 ## Option-CPBugs Relevance Estimation
 
@@ -24,7 +23,6 @@ pip install -r requirements.txt
 
 ```
 python roberta_ppr.py
-
 ```
 
 You can find the rankings in the data_pr folder
