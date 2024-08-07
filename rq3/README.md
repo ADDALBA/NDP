@@ -13,7 +13,6 @@
 python GA_n.py
 python lower_power.py
 python uni_sampling.py
-
 ```
 
 
