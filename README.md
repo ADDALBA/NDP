@@ -41,4 +41,4 @@ This repository contains the key codes, full data used and raw experiment result
 * [RQ3](https://github.com/ADDALBA/NDP/tree/main/rq3): Contains data and key codes used to CPBugs testing framework. See the rq3 folder for details.
 
 
-* [ndp](https://github.com/ADDALBA/NDP/tree/main/ndp): Contains deploying *NDP* to the real-world system. See the ndp folder for details.
+* [NDP](https://github.com/ADDALBA/NDP/tree/main/ndp): Contains deploying *NDP* to the real-world system. See the ndp folder for details.
