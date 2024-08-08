@@ -11,7 +11,6 @@
 ```
 cd ./rq1
 pip install -r requirements.txt
-
 ```
 ## Classify CPBugs types 
 
