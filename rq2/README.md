@@ -11,7 +11,6 @@
 ```
 cd ./rq2
 pip install -r requirements.txt
-
 ```
 ## Option-CPBugs Relevance Estimation
 
@@ -24,7 +23,6 @@ pip install -r requirements.txt
 
 ```
 python roberta_ppr.py
-
 ```
 
 You can find the rankings in the data_pr folder
@@ -38,7 +36,6 @@ You can find the rankings in the data_pr folder
 3.If you use CPU training, please mask all GPU calls.
 
 4.Using the command line: run the following command:
-
 ```
 python roberta_pr_kde_gpu.py
 ```

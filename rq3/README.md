@@ -13,7 +13,6 @@
 python GA_n.py
 python lower_power.py
 python uni_sampling.py
-
 ```
 
 
@@ -28,7 +27,7 @@ python show_result.py
 ```
 You can obtain results in the terminal.
 
-### Deploy NDP in a real-world system.
+### Deploy NDP in the real-world system
 1.Ensure that the output file paths for rq1 and rq2 are correct.
 
 2.Divide the sampling points according to the range of configuration options.

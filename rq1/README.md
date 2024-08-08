@@ -21,10 +21,8 @@ pip install -r requirements.txt
 2.Download the [trained model](https://huggingface.co/BitMars/roberta_pp)
 
 3.Using the command line: run the following command:
-
 ```
 python roberta_ppp.py
-
 ```
 
 You can find the prediction in the data_pp folder
@@ -38,7 +36,6 @@ You can find the prediction in the data_pp folder
 3.If you use CPU training, please mask all GPU calls.
 
 3.Using the command line: run the following command:
-
 ```
 python roberta_PP_KF_gpu.py
 ```
