@@ -1,2 +1,0 @@
-read_buffer_size
-innodb_sort_buffer_size
