@@ -484,19 +484,19 @@ def main():
     with open("./pre.txt", "r", encoding="utf-8") as file:
         lines = file.readlines()
         for line in lines:       
-            prev.append(line)
+            prev.append(line.strip())
 
     furv = []
     with open("./fur.txt", "r", encoding="utf-8") as file:
         lines = file.readlines()
         for line in lines:       
-            furv.append(line)
+            furv.append(line.strip())
     
     compv = []
     with open("./comp.txt", "r", encoding="utf-8") as file:
         lines = file.readlines()
         for line in lines:       
-            compv.append(line)
+            compv.append(line.strip())
 
     cpbug_num_list = []
     test_num_list = []
@@ -512,7 +512,8 @@ def main():
 
         for cat in csv_content:
             cp_type = ""
-
+            se_type = ""
+            
             if contains_substring(prev, cat):
                 se_type = "pre"
             elif contains_substring(furv, cat):
