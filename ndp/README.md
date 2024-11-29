@@ -25,10 +25,12 @@ pip install -r requirements.txt
 
 2.Edit and run *roberta_pr_kde_gpu.py* to get the results of Option-CPBugs relevance estimation, and divide options with different densities to different files.
 
-3.Divide the sampling points according to the range of configuration options.
+3.(Optional) Select options related to the buffer and process them using high density methods.
 
-4.Edit the *GA_n.py* file to ensure that the performance test results you want are transferred to the corresponding position in the *perf_list*.
+4.Divide the sampling points according to the range of configuration options.
 
-5.Run your customized *GA_n.py* file until suspicious options are detected or the preset threshold is exceeded.
+5.Edit the *GA_n.py* file to ensure that the performance test results you want are transferred to the corresponding position in the *perf_list*.
+
+6.Run your customized *GA_n.py* file until suspicious options are detected or the preset threshold is exceeded.
 
 **Note**: Performance test results come in many forms, please make sure to select the analysis preference according to the actual effect. More details can be obtained in our paper.
