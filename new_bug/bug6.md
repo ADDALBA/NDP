@@ -24,10 +24,10 @@ time gcc -Og   -ffloat-store   -I ./inputs/utilities -I ./inputs/$inputlocation 
 
 real    0m0.136s
 user    0m0.096s
-sys	    0m0.041s
+sys     0m0.041s
 
 time gcc -O0   -ffloat-store   -I ./inputs/utilities -I ./inputs/$inputlocation ./inputs/utilities/polybench.c ./inputs/$inputlocation/$inputname.c -DPOLYBENCH_TIME -o ./test
 
 real    0m0.118s
 user    0m0.075s
-sys	    0m0.043s
+sys     0m0.043s
