@@ -23,12 +23,12 @@ sys     0m0.048s
 # GCC 12.0
 time gcc -O2 -floop-interchange     -I ./inputs/utilities -I ./inputs/$inputlocation ./inputs/utilities/polybench.c ./inputs/$inputlocation/$inputname.c -DPOLYBENCH_TIME -o ./test
 
-real	0m0.170s
-user	0m0.125s
-sys	    0m0.044s
+real    0m0.170s
+user    0m0.125s
+sys     0m0.044s
 
 time gcc -O1 -floop-interchange     -I ./inputs/utilities -I ./inputs/$inputlocation ./inputs/utilities/polybench.c ./inputs/$inputlocation/$inputname.c -DPOLYBENCH_TIME -o ./test
 
-real	0m0.124s
-user	0m0.086s
+real    0m0.124s
+user    0m0.086s
 sys	    0m0.038s
