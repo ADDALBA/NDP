@@ -36,4 +36,4 @@ time gcc -O2  -fprefetch-loop-arrays -ffloat-store -fno-asm  -I ./inputs/utiliti
 
 real	0m0.220s
 user	0m0.171s
-sys	    0m0.048s
+sys	  0m0.048s
