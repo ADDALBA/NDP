@@ -13,7 +13,7 @@ gcc -O0 -I ./inputs/utilities -I ./inputs/$inputlocation ./inputs/utilities/poly
 time ./test
 real	0m6.684s
 user	0m6.633s
-sys		0m0.047s
+sys	  0m0.047s
 
 gcc -O1 -I ./inputs/utilities -I ./inputs/$inputlocation ./inputs/utilities/polybench.c ./inputs/$inputlocation/$inputname.c -DPOLYBENCH_TIME -o ./test
 
