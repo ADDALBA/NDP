@@ -13,39 +13,39 @@ gcc -O0 -I ./inputs/utilities -I ./inputs/$inputlocation ./inputs/utilities/poly
 time ./test
 real	0m6.684s
 user	0m6.633s
-sys	    0m0.047s
+sys		0m0.047s
 
 gcc -O1 -I ./inputs/utilities -I ./inputs/$inputlocation ./inputs/utilities/polybench.c ./inputs/$inputlocation/$inputname.c -DPOLYBENCH_TIME -o ./test
 
 time ./test
 real	0m7.210s
 user	0m7.161s
-sys	    0m0.046s
+sys	  0m0.046s
 
 gcc -O2 -I ./inputs/utilities -I ./inputs/$inputlocation ./inputs/utilities/polybench.c ./inputs/$inputlocation/$inputname.c -DPOLYBENCH_TIME -o ./test
 
 time ./test
 real	0m7.343s
 user	0m7.301s
-sys	    0m0.041s
+sys	  0m0.041s
 
 gcc -O3 -I ./inputs/utilities -I ./inputs/$inputlocation ./inputs/utilities/polybench.c ./inputs/$inputlocation/$inputname.c -DPOLYBENCH_TIME -o ./test
 
 time ./test
 real	0m7.310s
 user	0m7.267s
-sys	    0m0.037s
+sys	  0m0.037s
 
 gcc -Ofast -I ./inputs/utilities -I ./inputs/$inputlocation ./inputs/utilities/polybench.c ./inputs/$inputlocation/$inputname.c -DPOLYBENCH_TIME -o ./test
 
 time ./test
 real	0m7.074s
 user	0m7.021s
-sys	    0m0.050s
+sys	  0m0.050s
 
 gcc -Og -I ./inputs/utilities -I ./inputs/$inputlocation ./inputs/utilities/polybench.c ./inputs/$inputlocation/$inputname.c -DPOLYBENCH_TIME -o ./test
 
 time ./test
 real	0m7.180s
 user	0m7.138s
-sys	    0m0.033s
+sys	  0m0.033s
