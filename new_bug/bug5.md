@@ -31,4 +31,4 @@ time gcc -O1 -floop-interchange     -I ./inputs/utilities -I ./inputs/$inputloca
 
 real    0m0.124s
 user    0m0.086s
-sys	    0m0.038s
+sys     0m0.038s
