@@ -26,14 +26,14 @@ sys     0m0.086s
 gcc -O0  -fprefetch-loop-arrays -ffloat-store -fno-asm  -I ./inputs/utilities -I ./inputs/$inputlocation ./inputs/utilities/polybench.c ./inputs/$inputlocation/$inputname.c -DPOLYBENCH_TIME -o ./test
 
 time ./test
-real	0m0.379s
-user	0m0.316s
-sys	  0m0.062s
+real    0m0.379s
+user    0m0.316s
+sys	    0m0.062s
 
 gcc -O1  -fprefetch-loop-arrays -ffloat-store -fno-asm  -I ./inputs/utilities -I ./inputs/$inputlocation ./inputs/utilities/polybench.c ./inputs/$inputlocation/$inputname.c -DPOLYBENCH_TIME -o ./test
 
 time ./test
-real	0m0.215s
-user	0m0.131s
-sys	  0m0.085s
+real    0m0.215s
+user    0m0.131s
+sys	    0m0.085s
  
