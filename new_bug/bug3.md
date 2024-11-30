@@ -34,6 +34,6 @@ sys     0m0.045s
 
 time gcc -O2  -fprefetch-loop-arrays -ffloat-store -fno-asm  -I ./inputs/utilities -I ./inputs/$inputlocation ./inputs/utilities/polybench.c ./inputs/$inputlocation/$inputname.c -DPOLYBENCH_TIME -o ./test
 
-real	0m0.220s
-user	0m0.171s
-sys	  0m0.048s
+real    0m0.220s
+user    0m0.171s
+sys     0m0.048s
